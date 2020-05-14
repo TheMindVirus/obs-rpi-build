@@ -16,6 +16,6 @@ sudo cmake -DUNIX_STRUCTURE=1 -DCMAKE_INSTALL_PREFIX=/usr ..
 sudo make -j4
 sudo make install
 obs #Only need to run this command from now on
-#MESA_GL_VERSION_OVERRIDE=3 obs #Run it this way instead if you get video driver error messages
+#MESA_GL_VERSION_OVERRIDE=3.3 obs #Run it this way instead if you get video driver error messages
 
 exit 0
